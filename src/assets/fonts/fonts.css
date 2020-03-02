@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Gotham Light;
+  src: url(./Gotham-XLight.otf);
+}
+
+@font-face {
+  font-family: Gotham Book;
+  src: url(./GothamBook.ttf);
+}
+
+@font-face {
+  font-family: Poppins Medium;
+  src: url(./Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Regular.ttf);
+}
