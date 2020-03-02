@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+
+  .header__image,
+  .header__nav,
+  .header__mediasocial {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__nav,
+  .header__mediasocial {
+    ul li a {
+      color: $blue-nav;
+
+      &:hover {
+        color: $orange-nav;
+      }
+    }
+  }
+
+  .header__nav {
+    ul li a {
+      font-family: Gotham Bold;
+      &:hover {
+        transition: all 0.9;
+        border-bottom: 2px solid orange;
+      }
+    }
+  }
+}

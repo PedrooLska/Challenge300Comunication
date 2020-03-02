@@ -1,11 +1,37 @@
 @import "../assets/fonts/fonts.css";
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.header .header__image,
+.header .header__nav,
+.header .header__mediasocial {
+  display: flex;
+  align-items: center;
+}
+.header .header__nav ul li a,
+.header .header__mediasocial ul li a {
+  color: #2d6ee0;
+}
+.header .header__nav ul li a:hover,
+.header .header__mediasocial ul li a:hover {
+  color: #eca611;
+}
+.header .header__nav ul li a {
+  font-family: Gotham Bold;
+}
+.header .header__nav ul li a:hover {
+  transition: all 0.9;
+  border-bottom: 2px solid orange;
+}
+
 * {
   box-sizing: border-box;
 }
 
-h1 {
-  color: #ee6265;
-  font-family: Gotham Light;
+a:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

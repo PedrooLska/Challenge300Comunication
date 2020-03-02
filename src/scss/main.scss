@@ -1,11 +1,11 @@
 @import "./colors.scss";
 @import "../assets/fonts/fonts.css";
+@import "./style.scss";
 
 * {
   box-sizing: border-box;
 }
 
-h1 {
-  color: $red-bg;
-  font-family: Gotham Light;
+a:hover {
+  text-decoration: none;
 }

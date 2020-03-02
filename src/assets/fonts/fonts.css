@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: Gotham Bold;
+  src: url(./GothamBold.ttf);
+}
+
+@font-face {
   font-family: Poppins Medium;
   src: url(./Poppins-Medium.ttf);
 }
