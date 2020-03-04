@@ -1,7 +1,7 @@
 .header {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 50px;
 
   .header__image,
   .header__nav,
@@ -26,7 +26,44 @@
       font-family: Gotham Bold;
       &:hover {
         transition: all 0.9;
-        border-bottom: 2px solid orange;
+        border-bottom: 3px solid orange;
+      }
+    }
+  }
+}
+
+.main {
+  background: linear-gradient(to right, $orange-bg, $red-bg);
+
+  .main__title {
+    h1 {
+      font-size: 4.3rem;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      font-family: Gotham Light;
+    }
+  }
+
+  .main__card {
+    border-top: solid $white 2px;
+
+    .main__card__image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .main__card__text {
+      background: $white;
+      p:nth-child(1) {
+        background: $green;
+      }
+
+      h1 {
+        font-family: Tahoma;
       }
     }
   }

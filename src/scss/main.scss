@@ -1,11 +1,13 @@
 @import "./colors.scss";
 @import "../assets/fonts/fonts.css";
 @import "./style.scss";
+@import "./class.scss";
 
-* {
-  box-sizing: border-box;
-}
-
+*,
+p,
 a:hover {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
 }

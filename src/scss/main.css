@@ -2,7 +2,7 @@
 .header {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 50px;
 }
 .header .header__image,
 .header .header__nav,
@@ -23,14 +23,54 @@
 }
 .header .header__nav ul li a:hover {
   transition: all 0.9;
-  border-bottom: 2px solid orange;
+  border-bottom: 3px solid orange;
 }
 
-* {
-  box-sizing: border-box;
+.main {
+  background: linear-gradient(to right, #f5a749, #ee6265);
+}
+.main .main__title h1 {
+  font-size: 4.3rem;
+  text-transform: uppercase;
+}
+.main .main__title h1,
+.main .main__title h2 {
+  font-family: Gotham Light;
+}
+.main .main__card {
+  border-top: solid #ffff 2px;
+}
+.main .main__card .main__card__image img {
+  width: 100%;
+}
+.main .main__card .main__card__text {
+  background: #ffff;
+}
+.main .main__card .main__card__text p:nth-child(1) {
+  background: #90bf00;
+}
+.main .main__card .main__card__text h1 {
+  font-family: Tahoma;
 }
 
+.text-white {
+  color: #ffff;
+}
+
+.text-blue {
+  color: #2b69dc;
+}
+
+.text-blue-steel {
+  color: #97aacd;
+}
+
+*,
+p,
 a:hover {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
 }
 
