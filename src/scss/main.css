@@ -130,6 +130,13 @@
   margin-top: -80px;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0 30px;
+}
+
 .text-white {
   color: #ffff;
 }

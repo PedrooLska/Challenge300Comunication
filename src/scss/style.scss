@@ -96,6 +96,7 @@
     }
 
     .submain__text__button {
+      // Input E-mail
       input:nth-child(1) {
         color: $white;
         width: 35%;
@@ -116,6 +117,7 @@
         font-weight: 600;
       }
 
+      // Button Send
       button:nth-child(2) {
         background-color: $white;
         margin-left: -25px;
@@ -127,6 +129,7 @@
         }
       }
 
+      // Button Download Free
       button:nth-child(4) {
         width: 30%;
         color: $white;
@@ -137,11 +140,13 @@
         }
       }
 
+      // Text CheckBox
       label {
         font-family: Gotham Book;
         font-size: 14px;
       }
 
+      // Select E-mail
       select {
         outline: none;
         color: white;
@@ -160,4 +165,11 @@
       margin-top: -80px;
     }
   }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0 30px;
 }
