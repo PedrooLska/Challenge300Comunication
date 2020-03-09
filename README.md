@@ -1,5 +1,5 @@
 <h2>:computer: Projeto</h2> 
-Projeto desenvolvido em cima do Layout entregue pela Agência de Marketing 300 Comunicação para demonstrar meu conhecimento HTML, CSS.
+Projeto desenvolvido em cima do Layout entregue pela Agência de Marketing 300 Comunicação para demonstrar meus conhecimentos HTML, CSS.
 
 <h2>:rocket: Tecnologias</h2> 
 
