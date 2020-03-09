@@ -3,9 +3,16 @@
 }
 
 .text-blue {
-  color: $blue;
+  color: $blue-primary;
 }
 
 .text-blue-steel {
   color: $blue-steel;
+}
+
+.btn-default {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background: #d1e1ff;
 }

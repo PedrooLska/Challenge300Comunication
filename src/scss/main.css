@@ -23,7 +23,7 @@
 }
 .header .header__nav ul li a:hover {
   transition: all 0.9;
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #eca611;
 }
 
 .main {
@@ -47,10 +47,87 @@
   background: #ffff;
 }
 .main .main__card .main__card__text p:nth-child(1) {
+  font-family: Poppins Medium;
   background: #90bf00;
+  text-transform: uppercase;
 }
 .main .main__card .main__card__text h1 {
   font-family: Tahoma;
+}
+
+.submain {
+  margin-top: 150px;
+}
+.submain .container {
+  background: url(../assets/images/parallax-image.png) center;
+  background-color: #37377a;
+  border-radius: 10px;
+}
+.submain .submain__text .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submain .submain__text .container h1 {
+  font-family: Poppins;
+}
+.submain .submain__text .container p {
+  font-family: Gotham Book;
+  width: 60%;
+}
+.submain .submain__text .submain__text__button input:nth-child(1) {
+  color: #ffff;
+  width: 35%;
+  background: #578aed;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 0 10px 20px;
+}
+.submain .submain__text .submain__text__button input:nth-child(1)::placeholder {
+  color: #ffff;
+}
+.submain .submain__text .submain__text__button input:nth-child(1):focus {
+  outline: none;
+}
+.submain .submain__text .submain__text__button button {
+  font-family: Gotham Book;
+  font-weight: 600;
+}
+.submain .submain__text .submain__text__button button:nth-child(2) {
+  background-color: #ffff;
+  margin-left: -25px;
+  width: 20%;
+  border: 1px solid #ffff;
+}
+.submain .submain__text .submain__text__button button:nth-child(2):hover {
+  background: transparent;
+  color: #ffff;
+}
+.submain .submain__text .submain__text__button button:nth-child(4) {
+  width: 30%;
+  color: #ffff;
+  background-color: #578aed;
+}
+.submain .submain__text .submain__text__button button:nth-child(4):hover {
+  color: #578aed;
+  background: #ffff;
+}
+.submain .submain__text .submain__text__button label {
+  font-family: Gotham Book;
+  font-size: 14px;
+}
+.submain .submain__text .submain__text__button select {
+  outline: none;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.submain .submain__text .submain__text__button select option {
+  color: #2d6ee0;
+}
+.submain .submain__image img {
+  margin-top: -80px;
 }
 
 .text-white {
@@ -58,11 +135,18 @@
 }
 
 .text-blue {
-  color: #2b69dc;
+  color: #2d6ee0;
 }
 
 .text-blue-steel {
   color: #97aacd;
+}
+
+.btn-default {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background: #d1e1ff;
 }
 
 *,
