@@ -24,10 +24,6 @@
   .header__nav {
     ul li a {
       font-family: Gotham Bold;
-      &:hover {
-        transition: all 0.9;
-        border-bottom: 3px solid $orange-primary;
-      }
     }
   }
 }
@@ -124,7 +120,7 @@
         width: 20%;
         border: 1px solid $white;
         &:hover {
-          background: transparent;
+          background: $blue-steel-secondary;
           color: $white;
         }
       }

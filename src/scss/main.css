@@ -21,10 +21,6 @@
 .header .header__nav ul li a {
   font-family: Gotham Bold;
 }
-.header .header__nav ul li a:hover {
-  transition: all 0.9;
-  border-bottom: 3px solid #eca611;
-}
 
 .main {
   background: linear-gradient(to right, #f5a749, #ee6265);
@@ -100,7 +96,7 @@
   border: 1px solid #ffff;
 }
 .submain .submain__text .submain__text__button button:nth-child(2):hover {
-  background: transparent;
+  background: #578aed;
   color: #ffff;
 }
 .submain .submain__text .submain__text__button button:nth-child(4) {
@@ -156,12 +152,17 @@
   background: #d1e1ff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 *,
-p,
-a:hover {
+p {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+a:hover {
   text-decoration: none;
 }
 
